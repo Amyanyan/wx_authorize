@@ -1,0 +1,7 @@
+<!--pages/authorize/authorize.wxml-->
+<!-- 未全部授权 -->
+<view wx:if="{{!authorizeInfo}}" class='container'>
+  <image src='../../images/no-power.png' mode='widthFix'></image>
+  <text class='tips'>需要您的地理位置和登录授权才能使用哦~</text>
+  <button bindtap="toAuthorize">前去授权</button>
+</view>

@@ -1,0 +1,23 @@
+/* pages/authorize/authorize.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+image{
+  width: 50%;
+}
+.tips{
+  margin: 50rpx 0;
+}
+button{
+  width: 95%;
+  background: #18304f;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px rgba(24,42,70,0.5); 
+  margin-top: 50rpx;
+}

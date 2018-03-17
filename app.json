@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/authorize/authorize",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#18304f",
+    "navigationBarTitleText": "测试",
+    "navigationBarTextStyle": "#fff"
+  }
+}
